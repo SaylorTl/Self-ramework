@@ -1,0 +1,17 @@
+{
+  "require": {
+    "noahbuscher/macaw": "dev-master",
+    "illuminate/database": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\controllers\\": "application/controllers",
+      "App\\models\\": "application/models",
+      "App\\core\\": "application/core",
+      "App\\helpers\\": "application/helpers",
+      "App\\hooks\\": "application/hooks",
+      "App\\libraries\\": "application/libraries",
+      "App\\third_party\\": "application/third_party"
+    }
+  }
+}
